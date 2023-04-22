@@ -3,18 +3,12 @@
 
 number = int(input("Enter a number: "))
 
-
-def rev(num):
-    new_num = str(num)
-    result = new_num[::-1]
+def reverse(num):
+    string = str(num)
+    result = string[::-1]
     print(result)
-
-rev(number)
-
-
-
-
-
+    
+reverse(number)
 
 
 '''def reverse_num(num):
