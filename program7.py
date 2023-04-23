@@ -26,3 +26,10 @@ def armstrong(num: int):
 
 
 armstrong(153)
+
+number = 153
+length = len(str(number))
+res = 0
+for i in  str(number):
+    res = res + int(i)**length
+print(res)
