@@ -3,20 +3,21 @@
 
 number = int(input('Enter number of terms you want to print: '))
 
-def fibonacci(num):
+def fibonacci(num: int):
     a = 0
     b = 1
-    if num<0:
-        print('Invalid input')
-    elif num == 1:
+    if num < 0:
+        print("Enter a valid number")
+    elif num == 0:
         print(a)
-    elif num == 2:
-        print(a, b, end=' ')
+    elif num == 1:
+        print(a,b, end =' ')
     else:
-        print(a, end=' ')
-        for i in range(num):
-            b=a+b
-            print(b, end=' ')
-            a, b = b, a
+        print(a, end= ' ')
+        for i in range(1,num):
+            b = a+b
+            print(b, end = ' ')
+            a,b = b,a
 
-fibonacci(number)
+fibonacci(num=number)
+
