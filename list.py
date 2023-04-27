@@ -7,7 +7,7 @@ for elements in ls:
 
 # All functions
 
-ls.append("i hate you guddu")
+ls.append("i love python")
 print(ls)
 
 count = ls.count(22)
