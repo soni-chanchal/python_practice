@@ -1,4 +1,4 @@
-# Linera search
+# Linear search
 
 num = [24, 536, 6464, 664, 2, 24, 55, 77, 4]
 
